@@ -1,0 +1,13 @@
+{
+  "name": "Poți Pedala?",
+  "short_name": "Poți Pedala",
+  "description": "Verdict simplu pentru bicicliști: limite de ploaie, temperatură și vânt. Verde înseamnă pedalăm!",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
