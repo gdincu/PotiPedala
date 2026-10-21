@@ -142,7 +142,7 @@ function render(d, s) {
       <div class="big-emoji">${emojiFor(h.code)}</div>
       <div class="v">${Math.round(h.temp)}° · ${Math.round(h.wind)}<span style="font-weight:400">km/h</span></div>
       <div>🌧️ ${h.precip.toFixed(1)}mm · ${h.prob}%</div>
-      ${bad ? `<div class="bad-reason">${bad}</div>` : `<div style="color:#7bf0a8;font-weight:700">bine ✓</div>`}
+      ${bad ? `<div class="bad-reason">${bad.split(' ').pop()}</div>` : `<div style="color:#7bf0a8;font-weight:700">✓</div>`}
     </div>`;
   }).join('');
 
