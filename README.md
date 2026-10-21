@@ -1,4 +1,4 @@
-# Poți Pedala? (PWA)
+# Poți Pedala?
 
 - 🟢 **POȚI PEDALA** — vremea este bună de pedalat pentru următoarele **N** ore.
 - 🔴 **MAI AȘTEAPTĂ** — vântul, ploaia sau frigul depășește pragul setat.
