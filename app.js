@@ -110,7 +110,6 @@ function render(d, s) {
   const allGood = checks.every((c) => !c.bad);
 
   $('placeLabel').textContent = `${s.lat.toFixed(2)}, ${s.lon.toFixed(2)} · N=${s.hours}h · ≥${s.minTemp}°C · ≤${s.maxWind}km/h · ploaie ≤${s.rainMm}mm/${s.rainProb}%`;
-  $('hoursTag').textContent = `următoarele ${s.hours} ${oreLabel(s.hours)}`;
 
   // --- 1. Verdictul mare ---
   if (allGood) {
